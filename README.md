@@ -26,6 +26,40 @@ fn main() {
 }
 ```
 
+## Using RustyCache as a Standalone Command
+
+You can also use RustyCache as a standalone command-line tool.
+
+### Installation
+
+To install RustyCache as a standalone command, run the following command:
+
+```sh
+cargo install --path .
+```
+
+### Example Usage
+
+Here are some examples of how to use RustyCache as a standalone command:
+
+- Add a key-value pair to the cache:
+
+```sh
+rusty_cache --key my_key --value my_value
+```
+
+- Get the value associated with a key:
+
+```sh
+rusty_cache --key my_key
+```
+
+- Remove a key from the cache:
+
+```sh
+rusty_cache --key my_key --remove
+```
+
 ## Running Tests
 
 To run the tests for RustyCache, use the following command:

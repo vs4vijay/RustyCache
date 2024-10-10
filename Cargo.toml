@@ -1,0 +1,18 @@
+[package]
+name = "rusty_cache"
+version = "0.1.0"
+authors = ["Vijay Soni <vs4vijay@example.com>"]
+edition = "2018"
+
+[dependencies]
+serde = "1.0"
+serde_json = "1.0"
+clap = { version = "3.0", features = ["derive"] }
+
+[lib]
+name = "rusty_cache"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rusty_cache"
+path = "src/main.rs"
